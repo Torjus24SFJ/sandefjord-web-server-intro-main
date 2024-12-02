@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Library API",
+    "collectionId": "034fe52a-9338-4d59-8c29-a73894c3cb30",
+    "dateExported": "2024-11-14T11:20:44.875Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "391c38af-ce95-4045-ad0f-30fadf5b48bb",
+            "colId": "034fe52a-9338-4d59-8c29-a73894c3cb30",
+            "containerId": "",
+            "name": "List all books",
+            "url": "http://localhost:5076/book",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-14T10:38:40.784Z",
+            "modified": "2024-11-14T10:38:40.784Z",
+            "headers": []
+        },
+        {
+            "_id": "2d29161c-e48f-4914-8ef7-92c727827d40",
+            "colId": "034fe52a-9338-4d59-8c29-a73894c3cb30",
+            "containerId": "",
+            "name": "Borrow an existing book",
+            "url": "http://localhost:5076/book/borrow",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-14T11:20:14.948Z",
+            "modified": "2024-11-14T11:20:14.948Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Title\": \"Martian\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "09e3b254-0e5b-4de1-baea-d0610a000c4b",
+            "colId": "034fe52a-9338-4d59-8c29-a73894c3cb30",
+            "containerId": "",
+            "name": "Borrow a non existing book",
+            "url": "http://localhost:5076/book",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-11-14T11:20:30.868Z",
+            "modified": "2024-11-14T11:20:30.868Z",
+            "headers": []
+        }
+    ],
+    "ref": "OVJLrhbGJlBUU-88hhMq9yxLNccW5hDSl5z2KGhxhaD-Uq_Rxj8mpiJg746lIKbXK2yBrKnhyxk3jcJvPUk0WA"
+}
